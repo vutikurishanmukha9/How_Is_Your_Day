@@ -1,0 +1,25 @@
+{
+  "name": "how-is-your-day",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal blogging platform with web and mobile applications",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean",
+    "web:dev": "pnpm --filter web dev",
+    "mobile:dev": "pnpm --filter mobile start",
+    "web:build": "pnpm --filter web build",
+    "mobile:build": "pnpm --filter mobile build"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.15.0"
+}
